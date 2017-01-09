@@ -1,0 +1,152 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "nacho.res" {
+	type master;
+	file "/etc/bind/db.nacho.res";
+};
+
+zone "nacho.algu" {
+	type master;
+	file "/etc/bind/db.nacho.algu";
+};
+
+	zone "luque.res" {	
+	type master;
+	file "/etc/bind/db.luque.res";
+	};
+
+	zone "cervantes.res" {
+	type master;
+	file "/etc/bind/db.cervantes.res";	
+	};
+	
+		zone "erberni777.res" {
+		type master;
+		file "/etc/bind/db.erberni777.res";
+		
+	};
+
+	zone "erberni666.res" {
+		type master;
+		file "/etc/bind/db.erberni666.res";
+		
+	};
+	
+	zone "mmirat.res"{
+		type master;
+		file"/etc/bind/db.mmirat.res";
+	};
+
+	zone "miquelmirat.res"{
+		type master;
+		file"/etc/bind/db.miquelmirat";
+	};
+	
+	zone "ediaz.res"{
+	type master;
+	file "/etc/bind/db.ediaz.res";
+	};
+
+	zone "eusebio.res"{
+	type master;
+	file "/etc/bind/db.eusebio.res";
+	};
+
+	zone "isintes.res"{
+		type master;
+		file "/etc/bind/db.isintes.res";
+	};
+	
+	zone "inigo.res"{
+		type master;
+		file"/etc/bind/db.inigo.res";
+	};
+
+	zone "doraemon.res" {
+		type master;
+		file "/etc/bind/db.doraemon.res";
+		};
+		
+	zone "doraemon2.res" {
+		type master;
+		file "/etc/bind/db.doraemon2.res";
+		};
+		
+	zone "cipriramis.res" {
+		type master;
+		file "/etc/bind/db.cipriramis.res";
+	};
+
+	zone "ninyisus.res" {
+		type master;
+		file "/etc/bind/db.ninyisus.res";
+	};
+	
+	zone "baobab.res" {
+		type master;
+		file "/etc/bind/db.baobab.res";
+	};
+
+	zone "aaah.res"	{
+		type master;
+		file "/etc/bind/db.aaah.res";
+	};
+
+	zone "fotominute.res" {
+		type master;
+		file "/etc/bind/db.fotominute.res";
+	};
+	
+
+	zone "fotominute2.res" {
+		type master;
+		file "/etc/bind/db.fotominute2.res";
+	};
+
+	zone "agroman.res" {
+		type master;
+		file "/etc/bind/db.agroman.res";
+	};
+	
+	zone "turtle.res" {
+		type master;
+		file "/etc/bind/db.turtle.res";
+	};
+	
+	zone "ramis15.res" {
+		type master;
+		file "/etc/bind/db.ramis15.res";
+	};
+	
+	zone "cosa15.res" {
+		type master;
+		notify yes;
+		file "/etc/bind/db.cosa15.res";
+	};
+	
+	zone "marcuselcomerciante1.res" {
+		type master;
+		file "/etc/bind/db.marcuselcomerciante1.res";
+	};
+	
+	zone "marcuselcomerciante2.res" {
+		type master;
+		file "/etc/bind/db.marcuselcomerciante2.res";
+	};
+	
+		zone "zona16.res" {
+		type master;
+		file "/etc/bind/db.zona16.res";
+	};
+	
+	zone "jona16.res" {
+		type master;
+		file "/etc/bind/db.jona16.res";
+	};
+

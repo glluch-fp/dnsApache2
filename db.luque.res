@@ -15,3 +15,5 @@ ns	IN	A	172.21.2.5
 ns2	IN	A	172.21.0.10
 @	IN	A	172.21.2.5
 www	IN      A	172.21.2.5
+@	IN	MX	10 mail.luque.res.
+mail	IN	A	172.21.2.5

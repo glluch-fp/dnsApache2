@@ -150,3 +150,12 @@ zone "mmirat.res" {
 		file "/etc/bind/db.jona16.res";
 	};
 
+	zone "francesc.res"{
+		type master;
+		file "/etc/bind/db.francesc.res";
+	};
+	
+		zone "hola.res"{
+		type master;
+		file "/etc/bind/db.hola.res";
+	};

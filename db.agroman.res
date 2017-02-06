@@ -16,4 +16,4 @@ serv	IN	A	172.21.0.10
 	IN	A	172.21.6.66
 www	IN	A	172.21.6.66
 userver	IN	A	172.21.6.66
-@	IN	MX	10 userver.agroman.res
+@	IN	MX	10 userver.agroman.res.

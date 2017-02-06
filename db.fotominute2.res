@@ -15,3 +15,5 @@ ns2	IN	A	172.21.0.10
 ns	IN	A	172.21.10.7
 	IN	A	172.21.10.7
 WWW	IN	A	172.21.10.7
+@	IN	MX	10 mail.fotominute2.res.
+mail	IN	A	172.21.10.7

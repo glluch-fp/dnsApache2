@@ -16,4 +16,4 @@ serv	IN	A	172.21.0.10
 @	IN	A	172.21.5.10
 www	IN	A	172.21.5.10
 userver1	IN	A	172.21.5.10
-@	IN	MX	10 ubuserv1.ediaz.res.
+@	IN	MX	10 userver1.ediaz.res.
